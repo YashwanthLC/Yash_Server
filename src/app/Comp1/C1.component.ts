@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
 })
 export class C1Component {
   title = 'Component-1';
+  Friends = [{"name":"Abi"},
+  {"name":"Suri"},{"name":"Kp"}];
 }

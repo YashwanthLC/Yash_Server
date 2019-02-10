@@ -1,6 +1,8 @@
-<div style="text-align:center">
+<div style="text-align:center" *ngFor="let pics of Image_list" >
     <h1>
-      {{ title1 }}
+      {{ pics.title }}
     </h1>
     
+    <!-- <img [src]="pics.path" height="100" width="100"/> -->
+  
   </div>

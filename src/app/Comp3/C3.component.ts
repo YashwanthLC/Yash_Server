@@ -5,5 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './C3.component.html'
 })
 export class C3Component {
-  title1 = 'Component-3';
+  
+  Image_list= [
+    {"title":"Pic1",
+     "path":"sample"},
+     {"title":"Pic2",
+     "path":"sample2"}
+   
+  ]
 }
