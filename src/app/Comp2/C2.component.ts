@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class C2Component implements OnInit {
   title1 = 'Component-2';
-  @Input() appName: string;
+  @Input() appName ;
 constructor(){}
   ngOnInit(){}
 }
