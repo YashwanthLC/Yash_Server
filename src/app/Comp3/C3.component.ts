@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 export class C3Component {
   
   Image_list= [
-    {"title":"Pic1",
-     "path":"sample"},
-     {"title":"Pic2",
-     "path":"sample2"}
+    {"path":"../../assets/images/Desert.jpg"},
+     {"path":"../../assets/images/Chrysanthemum.jpg"},
+     {"path":"../../assets/images/Penguins.jpg"},
+     {"path":"../../assets/images/Koala.jpg"}
    
   ]
 }
