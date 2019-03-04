@@ -10,4 +10,8 @@ import {C2Component} from './Comp2/C2.component';
 })
 export class AppComponent {
   title_ip =[{"App":"Facebook"},{"App":"Instagram"},{"App":"Snapchat"}]
+  model_val = "2-Way";
+  // Receiver(Data){
+  //   Data
+  // };
 }

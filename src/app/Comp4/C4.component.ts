@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'C4-section',
@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
 })
 export class C4Component {
   title1 = 'Component-4';
+  @Input() appName2;
 }

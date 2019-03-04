@@ -1,8 +1,23 @@
-<div style="text-align:center" *ngFor="let pics of Image_list" >
-    <!-- <h1>
-      {{ pics.title }}
-    </h1> -->
-    
-    <img [src]="pics.path" height="100" width="100"/> 
+
+<div *ngFor="let data1 of Source_Data">
+
+
+<div *ngIf="data1.category.type==0" style="background:red">
   
+  <Img-section [URL]=data1.category.data>
+    
+  </Img-section>
   </div>
+
+  <div *ngIf="data1.category.type==1" style="background:green">
+    <Text-section [textContent]=data1>
+      <!-- {{data1.category.data.txtcontent}} -->
+    </Text-section>
+    </div>
+
+    <!-- <div >
+      <Poll-section></Poll-section>
+      </div> -->
+
+
+    </div>

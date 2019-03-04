@@ -1,5 +1,5 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
-import { EventEmitter } from 'events';
+import { Component, Input, OnInit, Output,EventEmitter } from '@angular/core';
+// import { EventEmitter } from 'events';
 
 @Component({
   selector: 'C2-section',
@@ -7,8 +7,14 @@ import { EventEmitter } from 'events';
 })
 export class C2Component implements OnInit {
   title1 = 'Component-2';
+ // Namelst:Array<any>=[{"App":"Arsenal"},{"App":"Barca"},{"App":"Dortmund"}];
   @Input() appName ;
-  // @Output() Vals = new EventEmitter<appName>(); 
+  
+  // @Output() name: EventEmitter<any> = new EventEmitter<any>();
+  // sample()
+  // {
+  //     this.name.emit(this.Namelst);
+  // }  
 constructor(){}
   ngOnInit(){}
 }

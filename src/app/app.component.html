@@ -1,4 +1,4 @@
-<!-- <<input type="text" [(ngModel)]="title_ip" (keyup)="0"/> -->
+<input type="text" [(ngModel)]="model_val" (keyup)="0"/> 
 
 <!-- <h1> -->
   <!-- {{title_ip}} -->
@@ -13,11 +13,12 @@
     {  width: 440px;  
        height: 440px;  
        border: solid 1px #ccc; 
-       float: left;  
+       float: left; 
+       overflow: auto; 
     } 
     .pageHolder
     { 
-    overflow: auto; 
+    overflow: auto; /*used for scroll option*/
     width: 100%; 
     } 
 
@@ -29,18 +30,26 @@
 
 <div class="pageholder">
 <div class="floatoneline">
-<C2-section *ngFor = "let r of title_ip" [appName]=r.App></C2-section>
+<C2-section
+ *ngFor = "let r of title_ip" [appName]=r.App 
+  > 
+<!-- *ngFor="let n of appName" (name) = Receiver($event)  [Namelst]="n">  -->
+
+</C2-section>
 </div>
 
 <div class="floatoneline"> 
-<C3-section></C3-section>
+<C3-section >
+</C3-section>
 </div>
 
 <div class="floatoneline">
-<C4-section></C4-section>
+<C4-section [appName2]= model_val></C4-section>
 </div>
 </div>
 
 <div >
-        <C5-section></C5-section>
-        </div>
+<C5-section>
+  This is the footer
+</C5-section>
+</div>
