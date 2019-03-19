@@ -1,12 +1,11 @@
-<input type="text" [(ngModel)]="model_val" (keyup)="0"/> 
+<!--two way binding
+ <input type="text" [(ngModel)]="model_val" (keyup)="0"/>  -->
 
-<!-- <h1> -->
-  <!-- {{title_ip}} -->
-<!-- </h1> -->
 
+<!-- Ngfor example
 <p *ngFor = "let r of title_ip">
   {{r.App}}
-</p>
+</p> -->
 
 <style> 
     .floatoneline 
@@ -30,11 +29,8 @@
 
 <div class="pageholder">
 <div class="floatoneline">
-<C2-section
- *ngFor = "let r of title_ip" [appName]=r.App 
-  > 
-<!-- *ngFor="let n of appName" (name) = Receiver($event)  [Namelst]="n">  -->
-
+<C2-section>
+ <!-- *ngFor = "let r of title_ip" [appName]=r.App   (@input example with ngfor)-->
 </C2-section>
 </div>
 
@@ -44,12 +40,12 @@
 </div>
 
 <div class="floatoneline">
-<C4-section [appName2]= model_val></C4-section>
-</div>
+<C4-section ></C4-section>
+<!-- [appName2]= model_val>  two-way binding-->
 </div>
 
 <div >
-<C5-section>
-  This is the footer
+<C5-section >
+  
 </C5-section>
 </div>

@@ -1,9 +1,11 @@
 import { Component, Input, OnInit, Output,EventEmitter } from '@angular/core';
 // import { EventEmitter } from 'events';
 
+
 @Component({
   selector: 'C2-section',
-  templateUrl: './C2.component.html'
+  templateUrl: './C2.component.html',
+  styleUrls:['./C2.component.css']
 })
 export class C2Component implements OnInit {
   title1 = 'Component-2';

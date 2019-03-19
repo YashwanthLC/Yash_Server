@@ -12,10 +12,12 @@ import { C5Component } from './Comp5/C5.component';
 import { PollComponent } from './Poll_Comp/Poll.component';
 import { TextComponent } from './Text_Comp/Text.component';
 import { ImgComponent } from './Img_comp/Img.component';
+import {CommentsComponent} from './Comments_Comp/Comments_Comp';
+import {PostCard} from './PostCard_Comp/PostCard_Comp';
 
 @NgModule({
   declarations: [
-    AppComponent, C1Component , C2Component , C3Component , C4Component, C5Component, ImgComponent, TextComponent, PollComponent
+    AppComponent, C1Component , C2Component , C3Component , C4Component, C5Component, ImgComponent, TextComponent, PollComponent, CommentsComponent, PostCard
   ],
   imports: [
     BrowserModule,

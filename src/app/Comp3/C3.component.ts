@@ -35,10 +35,38 @@ export class C3Component {
         ]
       },
       "category": {
-        "type": 1,
+        "type": 0,
         "data": {
           "txtcontent": "Deserunt nisi quis aute do. Laboris do deserunt Lorem veniam commodo. Quis cupidatat qui voluptate ex occaecat aliquip dolore excepteur fugiat consectetur. Do ad magna tempor aliquip velit. Et reprehenderit adipisicing fugiat anim reprehenderit eu amet nulla consectetur proident dolore reprehenderit.\r\n"
         }
+      },
+      "comment":{
+        "C_Count": 100,
+        "C_Data": [
+          {
+            "ID": "0",
+            "Pic": "http://localhost:4200/assets/images/4.jpg",
+            "Date":"Date",
+            "Text": "Very Nice",
+            "Likes": {
+              "L_Count": 100,
+              "L_Data": [
+                {
+                  "ID": "1",
+                  "Pic": "http://localhost:4200/assets/images/1.jpg"
+                }
+              ]
+            },
+            "Sub_Comments": [
+              {
+                "ID": "1",
+                "Pic": "http://localhost:4200/assets/images/4.jpg",
+                "Text":"Thanks",
+                "Date": "date"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -67,10 +95,41 @@ export class C3Component {
         ]
       },
       "category": {
-        "type": 1,
-        "data": {
-          "txtcontent": "Laborum eiusmod proident velit reprehenderit occaecat veniam non anim aliqua anim sint esse dolore. Occaecat commodo qui proident consequat. Reprehenderit velit adipisicing do ex ex. Elit esse est deserunt id deserunt.\r\n"
-        }
+        "type": 2,
+        "question": "Best club in the world?",
+        "Data": [{
+          "id": "A",
+          "text": "Arsenal",
+          "select_count":"100"
+        }]
+      },
+      "comment":{
+        "C_Count": 100,
+        "C_Data": [
+          {
+            "ID": "0",
+            "Pic": "http://localhost:4200/assets/images/4.jpg",
+            "Date":"Date",
+            "Text": "Very Nice",
+            "Likes": {
+              "L_Count": 100,
+              "L_Data": [
+                {
+                  "ID": "1",
+                  "Pic": "http://localhost:4200/assets/images/1.jpg"
+                }
+              ]
+            },
+            "Sub_Comments": [
+              {
+                "ID": "1",
+                "Pic": "http://localhost:4200/assets/images/4.jpg",
+                "Text":"Thanks",
+                "Date": "date"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -99,10 +158,38 @@ export class C3Component {
         ]
       },
       "category": {
-        "type": 1,
+        "type": 0,
         "data": {
           "txtcontent": "Officia sunt dolor culpa veniam dolore ad officia magna nisi est in exercitation excepteur dolore. Dolor cillum reprehenderit laborum voluptate irure ex est tempor exercitation Lorem. Officia pariatur elit deserunt sint voluptate esse cupidatat ea cupidatat proident tempor et culpa eu. Cupidatat irure commodo aliquip consequat non fugiat ullamco do id quis aute non. Velit sint ipsum laborum voluptate consequat culpa.\r\n"
         }
+      },
+      "comment":{
+        "C_Count": 100,
+        "C_Data": [
+          {
+            "ID": "0",
+            "Pic": "http://localhost:4200/assets/images/4.jpg",
+            "Date":"Date",
+            "Text": "Very Nice",
+            "Likes": {
+              "L_Count": 100,
+              "L_Data": [
+                {
+                  "ID": "1",
+                  "Pic": "http://localhost:4200/assets/images/1.jpg"
+                }
+              ]
+            },
+            "Sub_Comments": [
+              {
+                "ID": "1",
+                "Pic": "http://localhost:4200/assets/images/4.jpg",
+                "Text":"Thanks",
+                "Date": "date"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -131,7 +218,7 @@ export class C3Component {
           ]
         },
         "category": {
-          "type": 0,
+          "type": 1,
           "data": {
             "imgurl": "http://localhost:4200/assets/images/3.jpg",
             "location": [
@@ -139,6 +226,34 @@ export class C3Component {
               "Gila"
             ]
           }
+        },
+        "comment":{
+          "C_Count": 100,
+          "C_Data": [
+            {
+              "ID": "0",
+              "Pic": "http://localhost:4200/assets/images/4.jpg",
+              "Date":"Date",
+              "Text": "Very Nice",
+              "Likes": {
+                "L_Count": 100,
+                "L_Data": [
+                  {
+                    "ID": "1",
+                    "Pic": "http://localhost:4200/assets/images/1.jpg"
+                  }
+                ]
+              },
+              "Sub_Comments": [
+                {
+                  "ID": "1",
+                  "Pic": "http://localhost:4200/assets/images/4.jpg",
+                  "Text":"Thanks",
+                  "Date": "date"
+                }
+              ]
+            }
+          ]
         }
       },
       {
@@ -167,7 +282,7 @@ export class C3Component {
           ]
         },
         "category": {
-          "type": 0,
+          "type": 1,
           "data": {
             "imgurl": "http://localhost:4200/assets/images/2.jpg",
             "location": [
@@ -175,6 +290,34 @@ export class C3Component {
               "Crisman"
             ]
           }
+        },
+        "comment":{
+          "C_Count": 100,
+          "C_Data": [
+            {
+              "ID": "0",
+              "Pic": "http://localhost:4200/assets/images/4.jpg",
+              "Date":"Date",
+              "Text": "Very Nice",
+              "Likes": {
+                "L_Count": 100,
+                "L_Data": [
+                  {
+                    "ID": "1",
+                    "Pic": "http://localhost:4200/assets/images/1.jpg"
+                  }
+                ]
+              },
+              "Sub_Comments": [
+                {
+                  "ID": "1",
+                  "Pic": "http://localhost:4200/assets/images/4.jpg",
+                  "Text":"Thanks",
+                  "Date": "date"
+                }
+              ]
+            }
+          ]
         }
       },
       {
@@ -211,7 +354,35 @@ export class C3Component {
               "Delco"
             ]
           }
-        }
+        },
+        "comment":[{
+          "C_Count": 100,
+          "C_Data": [
+            {
+              "ID": "0",
+              "Pic": "http://localhost:4200/assets/images/4.jpg",
+              "Date":"Date",
+              "Text": "Very Nice",
+              "Likes": {
+                "L_Count": 100,
+                "L_Data": [
+                  {
+                    "ID": "1",
+                    "Pic": "http://localhost:4200/assets/images/1.jpg"
+                  }
+                ]
+              },
+              "Sub_Comments": [
+                {
+                  "ID": "1",
+                  "Pic": "http://localhost:4200/assets/images/4.jpg",
+                  "Text":"Thanks",
+                  "Date": "date"
+                }
+              ]
+            }
+          ]
+        }]
       }
   ]
 

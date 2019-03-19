@@ -1,23 +1,3 @@
-
-<div *ngFor="let data1 of Source_Data">
-
-
-<div *ngIf="data1.category.type==0" style="background:red">
-  
-  <Img-section [URL]=data1.category.data>
+<PostCard-Comp>
     
-  </Img-section>
-  </div>
-
-  <div *ngIf="data1.category.type==1" style="background:green">
-    <Text-section [textContent]=data1>
-      <!-- {{data1.category.data.txtcontent}} -->
-    </Text-section>
-    </div>
-
-    <!-- <div >
-      <Poll-section></Poll-section>
-      </div> -->
-
-
-    </div>
+</PostCard-Comp>
