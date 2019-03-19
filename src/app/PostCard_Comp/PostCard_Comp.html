@@ -1,0 +1,43 @@
+<style>
+    .FullPost {
+        width: 440px;
+        height: 440px;
+    }
+
+    .CommentSec {
+        position: relative;
+        width: 440px;
+        height: 50px;
+        background-color: aliceblue
+    }
+</style>
+
+<div class="FullPost">
+    <div *ngFor="let data1 of Source_Data">
+
+
+        <div *ngIf="data1.category.type==1" style="background:red">
+
+            <Img-section [URL]=data1.category.data>
+
+            </Img-section>
+           
+        </div>
+
+        <div *ngIf="data1.category.type==0" style="background:green">
+            <Text-section [textContent]=data1>
+                <!-- {{data1.category.data.txtcontent}} -->
+            </Text-section>
+           
+        </div>
+
+        <!-- <div >
+          <Poll-section></Poll-section>
+          </div> -->
+          <div class="CommentSec">
+            <Comments-Comp [Comments]=data1.comment></Comments-Comp>
+        </div>
+
+    </div>
+
+</div>
