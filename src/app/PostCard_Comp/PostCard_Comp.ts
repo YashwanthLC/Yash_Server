@@ -102,7 +102,13 @@ export class PostCard {
           "id": "A",
           "text": "Arsenal",
           "select_count":"100"
-        }]
+        },
+        {
+          "id": "B",
+          "text": "Barcelona",
+          "select_count":"100"
+        }
+      ]
       },
       "comment":[{
         "id": 101,
@@ -331,7 +337,7 @@ export class PostCard {
           ]
         },
         "category": {
-          "type": 0,
+          "type": 1,
           "data": {
             "imgurl": "http://localhost:4200/assets/images/5.jpg",
             "location": [

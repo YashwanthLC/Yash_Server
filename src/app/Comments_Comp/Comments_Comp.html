@@ -24,7 +24,7 @@
   <div  *ngFor="let r of Comments; let i=index">
      {{r.text}}
   
-  <div *ngFor="let s of Comments[i].Sub_Comments; let j=index">
+  <div *ngFor="let s of Comments[i].Sub_Comments">
      {{s.Text}}
   </div>
 

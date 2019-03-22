@@ -1,13 +1,8 @@
 <div style="text-align:center">
-    <h1>
-      {{ Question }}
-      <br>
-      {{ Op1 }}
-      <br>
-      {{ Op2 }}
-      <br>
-      {{ Op3 }}
-      <br>
-    </h1>
-    <ng-content></ng-content>
+  {{Poll_Cmp.category.question}}
+  <br>
+  <div *ngFor="let r of Poll_Cmp.category.Data; let i=index">
+  {{r.text}}
+
+  </div>
   </div>
